@@ -481,7 +481,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targeter: {fileID: 750910183132763163}
   trans: {fileID: 0}
-  speedMove: 0
   dot_attack: 0.5
   range_attack: 1.5
 --- !u!143 &5157535455729923177
@@ -640,7 +639,19 @@ MonoBehaviour:
   joystick: {fileID: 0}
   onMoveEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7055608746052943090}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3512573113751858390
 GameObject:
   m_ObjectHideFlags: 0

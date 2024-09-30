@@ -11,10 +11,9 @@ public class InputManager : BYSingletonMono<InputManager>
         var value = ctx.ReadValue<Vector2>();
         moveDir = new Vector3(value.x, 0, value.y);
     }
-#else
+#endif
     public void OnMove(Vector3 mov)
     {
-       moveDir = mov;
+        moveDir = mov;
     }
-#endif
 }
