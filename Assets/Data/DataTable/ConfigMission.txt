@@ -1,0 +1,4 @@
+id	sceneName	catDetect
+1	Ingame_01	5
+2	Ingame_02	6
+3	Ingame_03	7
