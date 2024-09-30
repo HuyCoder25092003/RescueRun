@@ -15,10 +15,10 @@ MonoBehaviour:
   records:
   - id: 1
     sceneName: Ingame_01
-    catDetect: 0
+    catDetect: 5
   - id: 2
     sceneName: Ingame_02
-    catDetect: 0
+    catDetect: 6
   - id: 3
     sceneName: Ingame_03
-    catDetect: 0
+    catDetect: 7

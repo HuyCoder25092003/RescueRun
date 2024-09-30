@@ -6,9 +6,9 @@ public class ConfigScene : BYSingletonMono<ConfigScene>
 {
     public Transform targetFinished;
     public Transform spwanSun;
-    public List<Transform> spwanObject; // Danh sách tất cả các vị trí spawn cho mọi map
-    public List<List<Transform>> spawnPositionsPerMap = new List<List<Transform>>();// Danh sách các vị trí spawn cho từng map
-    public List<int> spawnCountsPerMap; // Số lượng spawn cho từng map
+    public List<Transform> spwanObject;
+    public List<List<Transform>> spawnPositionsPerMap = new List<List<Transform>>();
+    public List<int> spawnCountsPerMap;
     private void Awake()
     {
         SetupSpawnPositions();
